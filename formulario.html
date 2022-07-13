@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+		<hedad>
+			<title>Formulário</title>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="./css/reset.css">
+			<link rel="preconnect" href="https://fonts.gstatic.com">
+			<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+			<link rel="stylesheet" type="text/css" href="./css/layout-homepage.css">
+			<link rel="stylesheet" type="text/css" href="./css/modulo-08.css">
+		</head>
+		<body>
+
+			<header>
+				<h2>Curso Front-end</h2>
+				<p>Aprenda do Zero ao Pro</p>
+				<div><h2>EBAC</h2></div>
+				<h5>Escola Britânica de Artes Criativas e Tecnologia</h5>
+			</header>
+
+			<section>
+				<nav>
+					<ul class="navegacao">
+						<li id="primeiro-link"><a href="homepage.html">Home</a></li>
+						<li><a href="tabela-de-vendas.html">Tabela de vendas</a></li>
+						<li><a href="experiencia-e-formacao.html">Experiência e Formação</a></li>
+					</ul>
+				</nav>
+
+				<article>
+					<h1>Contato</h1>
+					<p>Preencha os campos abaixo</p>
+					
+					<form method="post">
+
+						<div>
+							<label for="nome">Nome</label><br>	
+							<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+						</div>
+
+						<div>
+							<label for="email">E-mail</label><br>
+							<input type="email" name="email" id="email" placeholder="Digite seu email">
+						</div>
+
+						<div>
+							<label for="mensagem">Conte um pouco sobre sua experiência</label><br>
+							<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+						</div>
+
+						<div>
+							<p>
+								<label> De qual lado você desenvolve?</label>
+								<input type="radio" name="devweb" value="frontend">Front-End
+								<input type="radio" name="devweb" value="backend">Back-End
+								<input type="radio" name="devweb" value="fullstack">Fullstack
+							</p>
+						</div>
+
+						<div>
+							<p>
+								<label>Selecione as tecnologias que utiliza</label>
+								<input type="checkbox" name="tecnologia1" value="html">HTML
+								<input type="checkbox" name="tecnologia2" value="css">CSS
+								<input type="checkbox" name="tecnologia3" value="javascript">JavaScript
+								<input type="checkbox" name="tecnologia4" value="php">PHP
+								<input type="checkbox" name="tecnologia5" value="c#">C#
+								<input type="checkbox" name="tecnologia6" value="python">Python
+								<input type="checkbox" name="tecnologia7" value="java">Java
+							</p>
+						</div>
+
+						<div>
+							<label>Senioridade</label>
+							<select>
+								<option value="Junior" selected>Junior</option>
+								<option value="Pleno">Pleno</option>
+								<option value="Senior">Senior</option>
+							</select>
+						</div>
+
+						<div>
+							<input type="submit">
+						</div>
+
+
+					</form>
+
+				</article>
+
+			</section>
+				<footer><p>Desenvolvido por João Paulo</p>
+				</footer>
+
+		</body>
+</html>
